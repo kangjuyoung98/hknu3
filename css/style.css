@@ -1,0 +1,146 @@
+.box{width: 1200px; height: 600px; 
+  border: solid; border-color: black;
+position: absolute; top: 25px; left: 65px;}
+.mini{width: 110px; height: 260px; 
+       background-color: #F62378;
+     border: solid; border-color: black; 
+      writing-mode: vertical-lr;  text-align: center; line-height: 100px;}
+   
+     
+      .mini-1{position: absolute; top: 25px; left: 45px;}
+.mini2{width: 110px; height: 135px;
+       background-color: white; 
+       border: solid; border-color: black; 
+       text-align: center; line-height: 135px; font-size: 4em;}
+
+       .mini2-2{position: absolute; top: 300px; left: 27px;}
+.mini2-1{width: 110px; height: 135px;
+       background-color: #0262FE; 
+       border: solid; border-color: black;}
+
+       
+
+.mini3{width: 220px; height: 67px;
+       background-color: white; 
+       border: solid; border-color: black;}
+       
+.mini4{width: 110px; height: 530px;
+       background-color: white; 
+       border: solid; border-color: black;
+       position: absolute; left: 110px; top: 0px;}
+      
+       .mini4-1{position: absolute; top: 30px; left: 20px;}
+.mini5{width: 110px; height: 100px;
+       background-color: white; 
+       border: solid; border-color: black;
+       position: absolute; left: 220px; top: 0px;
+       writing-mode: vertical-lr; text-align: center; 
+       line-height: 110px; font-size: 4em;}
+       .mini5-1{position: absolute; top: 27px; left: 25px;}
+       
+.mini6{width: 110px; height: 497px;
+       background-color: #FD3201; 
+       border: solid; border-color: black;
+       position: absolute; left: 220px; top: 100px;
+       writing-mode: vertical-lr; text-align: center;
+       line-height: 50px; font-size: 3em;}
+       
+       .mini6-1{position: absolute; left: 20px; top: 35px;}
+.mini7{width: 600px; height: 100px;
+       background-color: #0262FE; 
+       border: solid; border-color: black;
+       position: absolute; left: 330px; top: 0px;}
+       
+       .mini7-1{position: absolute; top: 25px; left: 45px;}
+.mini8{width: 600px; height: 497px;
+       background-color: #00E859; 
+       border: solid; border-color: black;
+       position: absolute; left: 330px; top: 100px;}
+       
+       .mini8-1{position: absolute; top: 15px; left: 50px;}
+.mini9{width: 80px; height: 597px;
+       background-color: white; 
+       border: solid; border-color: black;
+       position: absolute; left: 930px; top: 0px;}
+      
+.mini10{width: 190px; height: 597px;
+       background-color: #FEF200; 
+       border: solid; border-color: black;
+       position: absolute; left: 1010px; top: 0px;}
+       
+       .mini10-1{position: absolute; top: 25px; left: 50px; transform: scale(0.9,0.9);}
+
+.over1{position: absolute; left: -110px; bottom: 45px; 
+  transform: scale(0.5,0.5);
+  animation-name: updown;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;}
+.over1text{position: absolute; left: 40px; bottom: 10px;}
+.over2{position: absolute; left: 130px; top: -40px; transform: scale(0.5,0.5);
+  animation-name: updown;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;}
+
+.over2text{position: absolute;left: 15px; bottom: 30px;}
+
+.over3{position: absolute; top: 40px; transform: scale(0.5,0.5);
+ animation-name: updown;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;}
+
+.over3text{position: absolute; top: 20px; left: 20px;}
+.over4{position: absolute; bottom: 20px; left: 370px; transform: scale(0.5,0.5);
+ animation-name: updown;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;}
+
+.over4text{position: absolute; top: 20px; left: 40px; }
+.over5{position: absolute; bottom: -37px; right: 350px; transform: scale(0.5,0.5); 
+  animation-name: updown;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;}
+            
+
+.over5text{position: absolute; top: 20px; left: 30px;}
+.over6{position: absolute; bottom: -40px; right: 70px; transform: scale(0.5,0.5);
+   animation-name: updown;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+          }
+
+.over6text{position: absolute; bottom: 30px; right: 20px;}
+.over7{position: absolute; top: 30px; right: 100px; transform: scale(0.5,0.5);
+   animation-name: updown;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+          }
+            
+
+.over7text{position: absolute; top: 55px; right: 35px; transform: scale(1.1,1.1);}
+.over8{ position: absolute; top: -40px; right: -85px; transform: scale(0.5,0.5);
+ animation-name: updown;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;}
+            
+  
+.over8text{position: absolute; top: 50px; right: 10px;}
+
+   @keyframes updown{
+    0%{transform: scale(0.5,0.5);}
+      25%{transform: scale(5,5);}
+      50%{transform: scale(1,1);}
+      75%{transform: scale(3,3);}
+      100%{transform: scale(0.5,0.5);}}
+
+
+ 
+
+    
